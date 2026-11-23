@@ -4,7 +4,7 @@ Manuscript, analysis code, protocol, supporting results and figures for a reanal
 
 ## Contents
 
-- `manuscript/`: draft and reference metadata.
+- `manuscript/`: manuscript draft, reference metadata, supplementary table and `submission/` drafts (title page, cover letter, declarations and checklist).
 - `N1_protocol.md`, `findings.md`, `novelty_check.md`: protocol and source checks.
 - `analysis/`: data preparation, analyses and figure generation.
 - `results/`: recorded analysis outputs and manuscript figures.

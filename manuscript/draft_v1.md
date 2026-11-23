@@ -6,7 +6,12 @@
 
 ---
 
-**Authors:** [PLACEHOLDER — author list, affiliations, ORCID, corresponding author]
+**Ananda Prasad**¹ (ORCID: [0009-0005-1736-8148](https://orcid.org/0009-0005-1736-8148)) and **Angsuman Das**²* (ORCID: [0000-0001-8146-7697](https://orcid.org/0000-0001-8146-7697))
+
+¹ Department of Zoology, Rajiv Gandhi University, Itanagar, Arunachal Pradesh, India. Email: anandaprasad01@gmail.com
+² Department of Zoology, Pachhunga University College (a constituent college of Mizoram University), Aizawl, Mizoram, India. Email: angsuman.das@rgu.ac.in
+
+*Corresponding author: Angsuman Das, angsuman.das@rgu.ac.in.
 
 ---
 
@@ -115,11 +120,11 @@ Python 3 with NumPy, pandas, SciPy, statsmodels [19], h5py, shapely and matplotl
 
 ## Data availability
 
-EMP release 1 and MicrobeAtlas MAPv3 are public (URLs above) and are cited, not redistributed. Derived per-sample tables are too large for the repository and will be deposited on Zenodo [PLACEHOLDER — DOI].
+EMP release 1 and MicrobeAtlas MAPv3 are available from the sources described above. Selected metadata and derived summary results are included in the project repository; large source and derived per-sample tables are not included. An archival deposit and DOI remain to be arranged.
 
 ## Code availability
 
-All scripts are in `projects/sampling-imbalance-biogeography-rules/analysis/` of the project repository [PLACEHOLDER — public repository URL and Zenodo DOI].
+Analysis scripts and instructions are available at https://github.com/Angsumi/sampling-imbalance-biogeography. An archival code DOI remains to be arranged.
 
 ## Acknowledgements
 
@@ -175,7 +180,7 @@ Shares are of samples located in a country; MicrobeAtlas also has 154,612 ocean 
 
 **Supplementary Figure S1. All estimates with 95% intervals** (`results/figures/figS1_forest_all.png`). F1/F2 show the Laplace-mode peak, whose intervals are clipped for display; F4 shows the salinity separation D, coloured by the salinity ranking.
 
-**Supplementary Table S1.** Samples, studies and countries per rule and data set (`results/final_findings.csv`, columns n, studies, countries; S0 rows). [To be generated as a formatted table.]
+**Supplementary Table S1.** Samples, studies and countries per rule and data set (S0 rows); see `manuscript/supplementary_table_s1.csv`.
 
 ---
 

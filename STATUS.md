@@ -8,7 +8,7 @@
 |---|---|---|
 | Protocol | `N1_protocol.md` (v0.6) | Frozen; no new analyses since v0.6 |
 | Final results | `results/final_report.md`, `results/final_findings.csv`, `results/final_extra_*.json` | Complete (first pass) |
-| Earlier runs (record) | `results/findings_*`, `results/ma_findings*`, `results/all_findings*`, `results/f1_pilot*`, logs | Restored 23 Nov 2026 from git history (dropped by the repo reorganisation, commit f03b35f) |
+| Earlier runs (record) | `results/findings_*`, `results/ma_findings*`, `results/all_findings*`, `results/f1_pilot*` | Restored 23 Nov 2026 from git history (dropped by the repo reorganisation, commit f03b35f) |
 | Source wording F1–F10 | `findings.md` | Verified: Thompson 2017 word for word (PMC full text); F4–F6, F8–F10 against source abstracts |
 | Novelty | `novelty_check.md` | Passes provisionally; MicrobeAtlas *Cell* 2026 full text not read |
 | Figures | `results/figures/` (script `analysis/make_figures.py`) | Fig. 1 scorecard, Fig. 2 F9, Fig. 3 transfer, Fig. S1 forest, Table 1 imbalance |
@@ -17,9 +17,9 @@
 
 ## Needs the user's input
 
-- Author list, affiliations, ORCIDs, corresponding author; funding; competing interests; author contributions; acknowledgements.
+- Funding, competing interests, author contributions and acknowledgements; authors and affiliations have been added to the draft and title page.
 - Target journal (draft follows Nature Communications; abstract ~180 words, limit 150).
-- Zenodo DOI and public repository URL for data/code availability.
+- Archival DOI for data and code; the public repository URL is included in the draft.
 
 ## Needs a person's check
 
