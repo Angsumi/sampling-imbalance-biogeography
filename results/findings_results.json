@@ -1,0 +1,1009 @@
+{
+  "F1": {
+    "data": {
+      "n": 3986,
+      "studies": 34,
+      "countries": 18,
+      "top_countries": {
+        "United States of America": 2127,
+        "Germany": 1040,
+        "Australia": 205,
+        "Antarctica": 121,
+        "Scotland": 92
+      },
+      "paper_n": 3986
+    },
+    "schemes": {
+      "S0": {
+        "estimate": {
+          "ub_peak": 7.3667612338415065,
+          "ub_width": 3.1758494604739105,
+          "mean_peak": 5.938249443186733,
+          "mean_curvature": -26.54500765267227
+        },
+        "n_boot_ok": 1000,
+        "ci95": {
+          "ub_peak": [
+            6.888413710534238,
+            8.121205127397833
+          ],
+          "ub_width": [
+            2.178583103153426,
+            10.21307898424258
+          ],
+          "mean_peak": [
+            1.7504443525433433,
+            6.8984196786488825
+          ],
+          "mean_curvature": [
+            -66.6439358590252,
+            -2.806763714308924
+          ]
+        }
+      },
+      "S1": {
+        "estimate": {
+          "ub_peak": 7.443359045275441,
+          "ub_width": 5.529585174090638,
+          "mean_peak": 5.806013374210461,
+          "mean_curvature": -19.570912580236723
+        },
+        "n_boot_ok": 1000,
+        "ci95": {
+          "ub_peak": [
+            6.639569350183708,
+            8.397377212542493
+          ],
+          "ub_width": [
+            2.858491847189175,
+            11.0797806767567
+          ],
+          "mean_peak": [
+            3.1773647843529425,
+            6.792961899231343
+          ],
+          "mean_curvature": [
+            -62.44676617681717,
+            -9.49453248881013
+          ]
+        }
+      },
+      "S2": {
+        "estimate": {
+          "ub_peak": 7.206066783905666,
+          "ub_width": 4.37066349822357,
+          "mean_peak": -1.8340086291545672,
+          "mean_curvature": -4.456829693034157
+        },
+        "n_boot_ok": 1000,
+        "ci95": {
+          "ub_peak": [
+            6.576415969905969,
+            7.985915305593539
+          ],
+          "ub_width": [
+            2.525921543534854,
+            11.001319513296304
+          ],
+          "mean_peak": [
+            -63.5224235932475,
+            77.53356940659255
+          ],
+          "mean_curvature": [
+            -53.97638599059454,
+            3.7597502416612625
+          ]
+        }
+      },
+      "S3": {
+        "estimate": {
+          "ub_peak": 7.185303409205587,
+          "ub_width": 7.131092807198351,
+          "mean_peak": 4.270349087366055,
+          "mean_curvature": -13.481130007669009
+        },
+        "n_boot_ok": 1000,
+        "ci95": {
+          "ub_peak": [
+            6.449764894051355,
+            8.578465458943386
+          ],
+          "ub_width": [
+            2.9274981246175114,
+            13.80213412530036
+          ],
+          "mean_peak": [
+            -12.238874727562235,
+            19.158401431857893
+          ],
+          "mean_curvature": [
+            -45.46638444663205,
+            0.33906151511464905
+          ]
+        }
+      }
+    },
+    "decisions": {
+      "S1": {
+        "claim_peak_shift": 0.07659781143393474,
+        "claim_changed": false,
+        "mean_peak_shift": -0.1322360689762725,
+        "curvature_change_pct": 26.272718259071468,
+        "curvature_ci_includes_zero": false,
+        "average_changed": false
+      },
+      "S2": {
+        "claim_peak_shift": -0.16069444993584092,
+        "claim_changed": false,
+        "mean_peak_shift": -7.772258072341301,
+        "curvature_change_pct": 83.21029041939082,
+        "curvature_ci_includes_zero": true,
+        "average_changed": true
+      },
+      "S3": {
+        "claim_peak_shift": -0.18145782463591953,
+        "claim_changed": false,
+        "mean_peak_shift": -1.6679003558206782,
+        "curvature_change_pct": 49.214066222686235,
+        "curvature_ci_includes_zero": true,
+        "average_changed": true
+      }
+    },
+    "transfer": {
+      "countries": [
+        {
+          "country": "Antarctica",
+          "n": 121,
+          "loco_rmse": 457.88146835270595,
+          "cv_rmse": 340.69113716691203,
+          "ratio": 1.3439782207436168
+        },
+        {
+          "country": "Australia",
+          "n": 205,
+          "loco_rmse": 417.5036578645301,
+          "cv_rmse": 417.7844012313327,
+          "ratio": 0.9993280185522122
+        },
+        {
+          "country": "China",
+          "n": 40,
+          "loco_rmse": 321.9529404003097,
+          "cv_rmse": 305.39229373801396,
+          "ratio": 1.0542274543328936
+        },
+        {
+          "country": "England",
+          "n": 86,
+          "loco_rmse": 540.8299118118167,
+          "cv_rmse": 349.1816645404802,
+          "ratio": 1.5488496869488946
+        },
+        {
+          "country": "Germany",
+          "n": 1040,
+          "loco_rmse": 384.54400799750067,
+          "cv_rmse": 293.39124354201186,
+          "ratio": 1.3106867245083145
+        },
+        {
+          "country": "North Atlantic Ocean",
+          "n": 38,
+          "loco_rmse": 373.76580149283393,
+          "cv_rmse": 334.671650697414,
+          "ratio": 1.1168134519728594
+        },
+        {
+          "country": "Panama",
+          "n": 41,
+          "loco_rmse": 338.14782664842596,
+          "cv_rmse": 325.94768371972066,
+          "ratio": 1.037429758019683
+        },
+        {
+          "country": "Russia",
+          "n": 62,
+          "loco_rmse": 420.8708019278608,
+          "cv_rmse": 414.87033973323327,
+          "ratio": 1.0144634639306485
+        },
+        {
+          "country": "Scotland",
+          "n": 92,
+          "loco_rmse": 421.3231416232772,
+          "cv_rmse": 420.84602965115084,
+          "ratio": 1.0011336972158722
+        },
+        {
+          "country": "Sweden",
+          "n": 60,
+          "loco_rmse": 522.9292192744223,
+          "cv_rmse": 394.3268414430447,
+          "ratio": 1.3261314329015883
+        },
+        {
+          "country": "United States of America",
+          "n": 2127,
+          "loco_rmse": 596.0932362783898,
+          "cv_rmse": 533.9066653965858,
+          "ratio": 1.1164746104744951
+        }
+      ],
+      "n_tested": 11,
+      "n_fail": 1,
+      "transfer_fails": false
+    },
+    "sensitivity": {
+      "free_living_only": {
+        "S0": {
+          "ub_peak": 7.364700445363896,
+          "ub_width": 3.170202041589046,
+          "mean_peak": 5.941451712524812,
+          "mean_curvature": -26.71186903336269
+        },
+        "S3": {
+          "ub_peak": 7.18449606218498,
+          "ub_width": 7.127254454537874,
+          "mean_peak": 4.368024737217139,
+          "mean_curvature": -13.954233268484643
+        },
+        "n": 3974
+      },
+      "150bp": {
+        "S0": {
+          "ub_peak": 7.044256112944057,
+          "ub_width": 4.318818993398946,
+          "mean_peak": 6.391726293252638,
+          "mean_curvature": -17.57567953784229
+        },
+        "S3": {
+          "ub_peak": 6.901771512980349,
+          "ub_width": 4.263772380735195,
+          "mean_peak": 3.7576337119729155,
+          "mean_curvature": -6.630864010010242
+        },
+        "n": 2089
+      },
+      "posthoc_min_bin_20": {
+        "S0": {
+          "ub_peak": 7.3419760459824355,
+          "ub_width": 3.001569488527046,
+          "mean_peak": 5.938249443186733,
+          "mean_curvature": -26.54500765267227
+        },
+        "S1": {
+          "ub_peak": 7.3862762456689,
+          "ub_width": 6.023177304758772,
+          "mean_peak": 5.806013374210461,
+          "mean_curvature": -19.570912580236723
+        },
+        "S2": {
+          "ub_peak": 7.193265704074366,
+          "ub_width": 4.0427191693746645,
+          "mean_peak": -1.8340086291545672,
+          "mean_curvature": -4.456829693034157
+        },
+        "S3": {
+          "ub_peak": 7.08442972121496,
+          "ub_width": 8.565553385917442,
+          "mean_peak": 4.270349087366055,
+          "mean_curvature": -13.481130007669009
+        }
+      },
+      "soil_only": {
+        "S0": {
+          "ub_peak": 6.551286925705365,
+          "ub_width": 2.978731900103035,
+          "mean_peak": 6.516337753458112,
+          "mean_curvature": -66.36403565635999
+        },
+        "S3": {
+          "ub_peak": 6.534110337981845,
+          "ub_width": 3.1526919752518534,
+          "mean_peak": 6.443941163360946,
+          "mean_curvature": -52.962879462506635
+        },
+        "n": 935
+      }
+    }
+  },
+  "F2": {
+    "data": {
+      "n": 6976,
+      "studies": 22,
+      "countries": 11,
+      "top_countries": {
+        "United States of America": 3164,
+        "Australia": 1559,
+        "Germany": 1086,
+        "Scotland": 643,
+        "English Channel": 118
+      },
+      "paper_n": 6976
+    },
+    "schemes": {
+      "S0": {
+        "estimate": {
+          "ub_peak": 9.047369533775768,
+          "ub_width": 12.710998762213118,
+          "mean_peak": 150.33569315715488,
+          "mean_curvature": 0.027989906321353786
+        },
+        "n_boot_ok": 1000,
+        "ci95": {
+          "ub_peak": [
+            6.147548768268719,
+            71.14071507583422
+          ],
+          "ub_width": [
+            0.5202616705346264,
+            24.88917199429414
+          ],
+          "mean_peak": [
+            -375.107141944734,
+            410.41313765410854
+          ],
+          "mean_curvature": [
+            -0.49710350692792904,
+            0.27462150933473983
+          ]
+        }
+      },
+      "S1": {
+        "estimate": {
+          "ub_peak": 9.860743489142456,
+          "ub_width": 14.982734228758014,
+          "mean_peak": -601.1298551750801,
+          "mean_curvature": -0.004579950981555392
+        },
+        "n_boot_ok": 999,
+        "ci95": {
+          "ub_peak": [
+            8.04962705631644,
+            70.21082944478478
+          ],
+          "ub_width": [
+            0.520261480443366,
+            18.186076443458465
+          ],
+          "mean_peak": [
+            -487.19464217144815,
+            696.7783618741447
+          ],
+          "mean_curvature": [
+            -0.8333613889633492,
+            0.1517044849196729
+          ]
+        }
+      },
+      "S2": {
+        "estimate": {
+          "ub_peak": 9.133060335341396,
+          "ub_width": 18.220457052428422,
+          "mean_peak": 36.60353229735717,
+          "mean_curvature": -0.08081846654640579
+        },
+        "n_boot_ok": 999,
+        "ci95": {
+          "ub_peak": [
+            5.642419025625636,
+            70.11471840177614
+          ],
+          "ub_width": [
+            0.5396385469738041,
+            25.801241434703883
+          ],
+          "mean_peak": [
+            -66.02832816122935,
+            126.12379500539484
+          ],
+          "mean_curvature": [
+            -0.5625724303491699,
+            0.11779043521314743
+          ]
+        }
+      },
+      "S3": {
+        "estimate": {
+          "ub_peak": 69.29985901863895,
+          "ub_width": 0.5731256747632069,
+          "mean_peak": 287.72207542629553,
+          "mean_curvature": 0.007980261876512351
+        },
+        "n_boot_ok": 998,
+        "ci95": {
+          "ub_peak": [
+            8.975272376230452,
+            70.63992243229863
+          ],
+          "ub_width": [
+            0.5202359462504411,
+            20.719399921615487
+          ],
+          "mean_peak": [
+            -553.2441635206832,
+            741.5273902504548
+          ],
+          "mean_curvature": [
+            -0.6171184207116943,
+            0.14130236018356834
+          ]
+        }
+      }
+    },
+    "decisions": {
+      "S1": {
+        "claim_peak_shift": 0.8133739553666874,
+        "claim_changed": false,
+        "mean_peak_shift": -751.465548332235,
+        "curvature_change_pct": -116.3628664168172,
+        "curvature_ci_includes_zero": true,
+        "average_changed": true
+      },
+      "S2": {
+        "claim_peak_shift": 0.0856908015656277,
+        "claim_changed": false,
+        "mean_peak_shift": -113.73216085979772,
+        "curvature_change_pct": -388.7414685084121,
+        "curvature_ci_includes_zero": true,
+        "average_changed": true
+      },
+      "S3": {
+        "claim_peak_shift": 60.25248948486319,
+        "claim_changed": true,
+        "mean_peak_shift": 137.38638226914065,
+        "curvature_change_pct": -71.48878676159009,
+        "curvature_ci_includes_zero": true,
+        "average_changed": true
+      }
+    },
+    "transfer": {
+      "countries": [
+        {
+          "country": "Arctic Ocean",
+          "n": 84,
+          "loco_rmse": 86.35039836851294,
+          "cv_rmse": 73.97876077257393,
+          "ratio": 1.1672322902781784
+        },
+        {
+          "country": "Australia",
+          "n": 1559,
+          "loco_rmse": 289.27319990994374,
+          "cv_rmse": 103.87572664527198,
+          "ratio": 2.7848007349954873
+        },
+        {
+          "country": "England",
+          "n": 86,
+          "loco_rmse": 583.7184493702073,
+          "cv_rmse": 342.09537678672433,
+          "ratio": 1.706303238743037
+        },
+        {
+          "country": "English Channel",
+          "n": 118,
+          "loco_rmse": 108.15662617646721,
+          "cv_rmse": 103.32374419958937,
+          "ratio": 1.0467741661349614
+        },
+        {
+          "country": "Germany",
+          "n": 1086,
+          "loco_rmse": 307.50452134291857,
+          "cv_rmse": 273.53390123332184,
+          "ratio": 1.124191626545845
+        },
+        {
+          "country": "North Atlantic Ocean",
+          "n": 73,
+          "loco_rmse": 303.15394204717836,
+          "cv_rmse": 274.1271789663734,
+          "ratio": 1.1058879429258113
+        },
+        {
+          "country": "Norway",
+          "n": 56,
+          "loco_rmse": 131.24963224191768,
+          "cv_rmse": 110.76945487823832,
+          "ratio": 1.184890116017921
+        },
+        {
+          "country": "Scotland",
+          "n": 643,
+          "loco_rmse": 497.56265473967625,
+          "cv_rmse": 383.6954018523577,
+          "ratio": 1.2967647053824574
+        },
+        {
+          "country": "Sweden",
+          "n": 82,
+          "loco_rmse": 495.2820476783341,
+          "cv_rmse": 358.78806525946527,
+          "ratio": 1.3804306654407812
+        },
+        {
+          "country": "United States of America",
+          "n": 3164,
+          "loco_rmse": 510.2692266630639,
+          "cv_rmse": 457.8645469699988,
+          "ratio": 1.1144545478348618
+        }
+      ],
+      "n_tested": 10,
+      "n_fail": 2,
+      "transfer_fails": false
+    },
+    "sensitivity": {
+      "free_living_only": {
+        "S0": {
+          "ub_peak": 9.319862309500964,
+          "ub_width": 13.43285230349508,
+          "mean_peak": 0.7930253320149427,
+          "mean_curvature": -0.09636291860919319
+        },
+        "S3": {
+          "ub_peak": 69.29999928877213,
+          "ub_width": 0.5775754789655967,
+          "mean_peak": 13.327817256955148,
+          "mean_curvature": -0.06712746219005905
+        },
+        "n": 5389
+      },
+      "150bp": {
+        "S0": {
+          "ub_peak": 13.041464360165351,
+          "ub_width": 20.592374591685868,
+          "mean_peak": 4.937806125848938,
+          "mean_curvature": -0.017661093385940213
+        },
+        "S3": {
+          "ub_peak": 13.584935021065869,
+          "ub_width": 16.18435172685416,
+          "mean_peak": 23.917902193390645,
+          "mean_curvature": -0.0674317415634289
+        },
+        "n": 5029
+      },
+      "posthoc_min_bin_20": {
+        "S0": {
+          "ub_peak": 9.036631597530617,
+          "ub_width": 11.994486818216952,
+          "mean_peak": 150.33569315715488,
+          "mean_curvature": 0.027989906321353786
+        },
+        "S1": {
+          "ub_peak": 9.790194164845422,
+          "ub_width": 13.643678775855136,
+          "mean_peak": -601.1298551750801,
+          "mean_curvature": -0.004579950981555392
+        },
+        "S2": {
+          "ub_peak": 9.187372670252993,
+          "ub_width": 16.43104949931332,
+          "mean_peak": 36.60353229735717,
+          "mean_curvature": -0.08081846654640579
+        },
+        "S3": {
+          "ub_peak": 11.727889061206207,
+          "ub_width": 17.316071586062037,
+          "mean_peak": 287.72207542629553,
+          "mean_curvature": 0.007980261876512351
+        }
+      }
+    }
+  },
+  "F3": {
+    "data": {
+      "n": 23828,
+      "studies": 96,
+      "countries": 43,
+      "top_countries": {
+        "United States of America": 11849,
+        "Australia": 3784,
+        "Germany": 1147,
+        "Spain": 968,
+        "Scotland": 906
+      },
+      "paper_n": 23828
+    },
+    "schemes": {
+      "S0": {
+        "estimate": {
+          "log_ratio_fl_ha": 0.7915866996047661,
+          "mean_free_living": 647.9511510387423,
+          "mean_host_associated": 293.6030279024734
+        },
+        "n_boot_ok": 1000,
+        "ci95": {
+          "log_ratio_fl_ha": [
+            0.43115211971587936,
+            1.255580475735461
+          ],
+          "mean_free_living": [
+            487.80021031951355,
+            835.1253771633387
+          ],
+          "mean_host_associated": [
+            191.15575632202336,
+            420.0251136676666
+          ]
+        }
+      },
+      "S1": {
+        "estimate": {
+          "log_ratio_fl_ha": 0.9998934492982069,
+          "mean_free_living": 648.7282661613692,
+          "mean_host_associated": 238.67922211136192
+        },
+        "n_boot_ok": 1000,
+        "ci95": {
+          "log_ratio_fl_ha": [
+            0.7825784767252314,
+            1.2853084765362388
+          ],
+          "mean_free_living": [
+            583.7216433347219,
+            711.3565291021506
+          ],
+          "mean_host_associated": [
+            177.84060869685575,
+            293.91537186560566
+          ]
+        }
+      },
+      "S2": {
+        "estimate": {
+          "log_ratio_fl_ha": 1.1173998241648364,
+          "mean_free_living": 674.081888151644,
+          "mean_host_associated": 220.51192501857028
+        },
+        "n_boot_ok": 1000,
+        "ci95": {
+          "log_ratio_fl_ha": [
+            0.7838709283620237,
+            1.5422842754883146
+          ],
+          "mean_free_living": [
+            576.0359150850975,
+            744.2334226568502
+          ],
+          "mean_host_associated": [
+            139.7702640110416,
+            302.5308588136316
+          ]
+        }
+      },
+      "S3": {
+        "estimate": {
+          "log_ratio_fl_ha": 1.0544143842913427,
+          "mean_free_living": 643.2449714344607,
+          "mean_host_associated": 224.10422849255525
+        },
+        "n_boot_ok": 1000,
+        "ci95": {
+          "log_ratio_fl_ha": [
+            0.8636689542345012,
+            1.3143145197966422
+          ],
+          "mean_free_living": [
+            578.8432806552709,
+            730.7137303912729
+          ],
+          "mean_host_associated": [
+            178.8481935836359,
+            267.3721509785687
+          ]
+        }
+      }
+    },
+    "decisions": {
+      "S1": {
+        "log_ratio": 0.9998934492982069,
+        "change_pct": 26.315089654417754,
+        "sign_flip": false,
+        "ci_includes_zero": false,
+        "claim_changed": false
+      },
+      "S2": {
+        "log_ratio": 1.1173998241648364,
+        "change_pct": 41.15949961296047,
+        "sign_flip": false,
+        "ci_includes_zero": false,
+        "claim_changed": false
+      },
+      "S3": {
+        "log_ratio": 1.0544143842913427,
+        "change_pct": 33.202640319475385,
+        "sign_flip": false,
+        "ci_includes_zero": false,
+        "claim_changed": false
+      }
+    },
+    "transfer": {
+      "countries": [
+        {
+          "country": "Antarctica",
+          "n": 252,
+          "loco_rmse": 582.6210435712032,
+          "cv_rmse": 565.395417598428,
+          "ratio": 1.0304665114654497
+        },
+        {
+          "country": "Arctic Ocean",
+          "n": 84,
+          "loco_rmse": 107.16758216856971,
+          "cv_rmse": 99.08394230985873,
+          "ratio": 1.081583752828804
+        },
+        {
+          "country": "Australia",
+          "n": 3784,
+          "loco_rmse": 282.60882857724783,
+          "cv_rmse": 206.4332079473797,
+          "ratio": 1.369008559171766
+        },
+        {
+          "country": "Belize",
+          "n": 51,
+          "loco_rmse": 259.8970207689524,
+          "cv_rmse": 257.2960485707063,
+          "ratio": 1.010108869579205
+        },
+        {
+          "country": "Brazil",
+          "n": 57,
+          "loco_rmse": 293.9545133645657,
+          "cv_rmse": 290.2217082627103,
+          "ratio": 1.012861908656662
+        },
+        {
+          "country": "Canada",
+          "n": 77,
+          "loco_rmse": 400.2677086921456,
+          "cv_rmse": 397.6155281598698,
+          "ratio": 1.006670213672363
+        },
+        {
+          "country": "China",
+          "n": 120,
+          "loco_rmse": 245.90472261409397,
+          "cv_rmse": 242.2804010700582,
+          "ratio": 1.0149592023458298
+        },
+        {
+          "country": "Costa Rica",
+          "n": 82,
+          "loco_rmse": 305.06166768852324,
+          "cv_rmse": 299.22758436891627,
+          "ratio": 1.0194971440614717
+        },
+        {
+          "country": "Curacao Island",
+          "n": 35,
+          "loco_rmse": 31.979362760879855,
+          "cv_rmse": 29.45527793961004,
+          "ratio": 1.0856921067404206
+        },
+        {
+          "country": "England",
+          "n": 248,
+          "loco_rmse": 429.5183910482616,
+          "cv_rmse": 326.4740519994568,
+          "ratio": 1.3156279600713146
+        },
+        {
+          "country": "English Channel",
+          "n": 141,
+          "loco_rmse": 117.11073702848908,
+          "cv_rmse": 111.70210588166847,
+          "ratio": 1.0484201358974399
+        },
+        {
+          "country": "Germany",
+          "n": 1147,
+          "loco_rmse": 302.3315040734417,
+          "cv_rmse": 276.432026535788,
+          "ratio": 1.0936920293289556
+        },
+        {
+          "country": "Gulf of Mexico",
+          "n": 103,
+          "loco_rmse": 408.2880523168423,
+          "cv_rmse": 373.011143718493,
+          "ratio": 1.0945733369965278
+        },
+        {
+          "country": "Italy",
+          "n": 215,
+          "loco_rmse": 232.50651681919106,
+          "cv_rmse": 229.11715945180399,
+          "ratio": 1.0147931188370902
+        },
+        {
+          "country": "Japan",
+          "n": 623,
+          "loco_rmse": 888.4089098130494,
+          "cv_rmse": 709.1261274592658,
+          "ratio": 1.2528221361637562
+        },
+        {
+          "country": "Kenya",
+          "n": 125,
+          "loco_rmse": 317.6551173757589,
+          "cv_rmse": 314.885352910048,
+          "ratio": 1.0087961044872802
+        },
+        {
+          "country": "Malaysia",
+          "n": 55,
+          "loco_rmse": 433.1663457014988,
+          "cv_rmse": 429.7679010923058,
+          "ratio": 1.0079076278162131
+        },
+        {
+          "country": "Mongolia",
+          "n": 228,
+          "loco_rmse": 453.7732163440818,
+          "cv_rmse": 444.1869818390649,
+          "ratio": 1.0215815296191866
+        },
+        {
+          "country": "Nicaragua",
+          "n": 60,
+          "loco_rmse": 246.85258785447218,
+          "cv_rmse": 243.74038322976506,
+          "ratio": 1.012768522735001
+        },
+        {
+          "country": "North Atlantic Ocean",
+          "n": 102,
+          "loco_rmse": 344.22682680228024,
+          "cv_rmse": 313.8011043755827,
+          "ratio": 1.0969586212490876
+        },
+        {
+          "country": "Norway",
+          "n": 348,
+          "loco_rmse": 184.94816144510762,
+          "cv_rmse": 121.96980668943057,
+          "ratio": 1.5163438105304017
+        },
+        {
+          "country": "Panama",
+          "n": 131,
+          "loco_rmse": 174.99304178301924,
+          "cv_rmse": 173.9143452063644,
+          "ratio": 1.0062024588907537
+        },
+        {
+          "country": "Puerto Rico",
+          "n": 701,
+          "loco_rmse": 155.8811159841917,
+          "cv_rmse": 153.3553770200238,
+          "ratio": 1.016469842878989
+        },
+        {
+          "country": "Russia",
+          "n": 69,
+          "loco_rmse": 491.65592853081444,
+          "cv_rmse": 488.01079918899444,
+          "ratio": 1.0074693620466548
+        },
+        {
+          "country": "Scotland",
+          "n": 906,
+          "loco_rmse": 394.65319028656035,
+          "cv_rmse": 388.0598791953285,
+          "ratio": 1.0169904477239533
+        },
+        {
+          "country": "Singapore",
+          "n": 80,
+          "loco_rmse": 103.79272368295544,
+          "cv_rmse": 102.09061876185604,
+          "ratio": 1.0166724909863643
+        },
+        {
+          "country": "South Africa",
+          "n": 500,
+          "loco_rmse": 307.55049036603504,
+          "cv_rmse": 273.1482381082409,
+          "ratio": 1.125947187124676
+        },
+        {
+          "country": "Spain",
+          "n": 968,
+          "loco_rmse": 219.08604836379914,
+          "cv_rmse": 185.9750578281049,
+          "ratio": 1.1780399528967935
+        },
+        {
+          "country": "Sweden",
+          "n": 116,
+          "loco_rmse": 436.0057790915053,
+          "cv_rmse": 406.5967930071219,
+          "ratio": 1.0723296066033365
+        },
+        {
+          "country": "Tanzania",
+          "n": 123,
+          "loco_rmse": 202.68542443631245,
+          "cv_rmse": 203.08423287933803,
+          "ratio": 0.9980362412316739
+        },
+        {
+          "country": "United States of America",
+          "n": 11849,
+          "loco_rmse": 438.7083858797901,
+          "cv_rmse": 367.9989921742801,
+          "ratio": 1.1921456178119718
+        },
+        {
+          "country": "Venezuela",
+          "n": 320,
+          "loco_rmse": 146.5358634304134,
+          "cv_rmse": 144.28688829083,
+          "ratio": 1.0155868295880792
+        }
+      ],
+      "n_tested": 32,
+      "n_fail": 1,
+      "transfer_fails": false
+    },
+    "mean_richness_by_habitat": {
+      "S0": {
+        "Aerosol (non-saline)": 273.0,
+        "Animal corpus": 38.0,
+        "Animal distal gut": 333.0,
+        "Animal proximal gut": 173.0,
+        "Animal secretion": 134.0,
+        "Animal surface": 218.0,
+        "Hypersaline (saline)": 281.0,
+        "Plant corpus": 81.0,
+        "Plant rhizosphere": 1397.0,
+        "Plant surface": 173.0,
+        "Sediment (non-saline)": 1179.0,
+        "Sediment (saline)": 879.0,
+        "Soil (non-saline)": 971.0,
+        "Surface (non-saline)": 312.0,
+        "Surface (saline)": 350.0,
+        "Water (non-saline)": 447.0,
+        "Water (saline)": 194.0
+      },
+      "S3": {
+        "Aerosol (non-saline)": 343.0,
+        "Animal corpus": 62.0,
+        "Animal distal gut": 221.0,
+        "Animal proximal gut": 161.0,
+        "Animal secretion": 141.0,
+        "Animal surface": 196.0,
+        "Hypersaline (saline)": 405.0,
+        "Plant corpus": 142.0,
+        "Plant rhizosphere": 1248.0,
+        "Plant surface": 223.0,
+        "Sediment (non-saline)": 817.0,
+        "Sediment (saline)": 676.0,
+        "Soil (non-saline)": 819.0,
+        "Surface (non-saline)": 351.0,
+        "Surface (saline)": 330.0,
+        "Water (non-saline)": 460.0,
+        "Water (saline)": 302.0
+      }
+    },
+    "sensitivity": {
+      "150bp": {
+        "S0": {
+          "log_ratio_fl_ha": 0.6407087753781917,
+          "mean_free_living": 716.2196620583717,
+          "mean_host_associated": 377.38962246605917
+        },
+        "S3": {
+          "log_ratio_fl_ha": 0.7331565975268313,
+          "mean_free_living": 585.0491232014942,
+          "mean_host_associated": 281.05186281011396
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+dataset,samples,studies,samples_with_country,countries,top_country,top_country_share,top3_countries,top3_share,ocean_samples,no_coordinates
+EMP,23828,96,23828,43,United States of America,0.497,United States of America; Australia; Germany,0.704,0,0
+"MicrobeAtlas (1,000 reads, amplicon)",1665984,23742,956833,166,United States of America,0.393,United States of America; China; Canada,0.579,154612,554539

@@ -1,0 +1,276 @@
+{
+ "f9_deep": {
+  "n": 935,
+  "S0": {
+   "slope": 0.12426018197238638,
+   "ci": [
+    -0.31986756250846815,
+    0.2563776933057022
+   ],
+   "significant": false
+  },
+  "S3": {
+   "slope": -0.2562237925888152,
+   "ci": [
+    -0.36181701463168187,
+    -0.16669108682274203
+   ],
+   "significant": true
+  },
+  "drop_one_country_S0": [
+   {
+    "dropped": "United States of America",
+    "n_dropped": 428,
+    "slope": 0.22851798623490696,
+    "ci": [
+     -0.41865678709007664,
+     0.3214913605638217
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Australia",
+    "n_dropped": 205,
+    "slope": 0.005867087185924316,
+    "ci": [
+     -0.3741494558834907,
+     0.1637282980936155
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Antarctica",
+    "n_dropped": 119,
+    "slope": -0.006375007406666106,
+    "ci": [
+     -0.3971435721961789,
+     0.17618224329875826
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Russia",
+    "n_dropped": 62,
+    "slope": 0.13016437612511908,
+    "ci": [
+     -0.32185656116974115,
+     0.2643724977987843
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Panama",
+    "n_dropped": 41,
+    "slope": 0.1335157229649791,
+    "ci": [
+     -0.3439940838714187,
+     0.26124308578524774
+    ],
+    "significant": false
+   }
+  ],
+  "classes": {
+   "c__Acidobacteria-6": {
+    "mean_share": 0.03136363636363636,
+    "S0": {
+     "slope": -0.030391691583637935,
+     "ci": [
+      -0.3505445459456415,
+      0.7679675096180716
+     ],
+     "significant": false
+    },
+    "S3": {
+     "slope": 0.15956360463495664,
+     "ci": [
+      -0.08391277977994431,
+      0.24438011027773132
+     ],
+     "significant": false
+    }
+   },
+   "c__Acidobacteriia": {
+    "mean_share": 0.04197069518716577,
+    "S0": {
+     "slope": -1.0060680993333688,
+     "ci": [
+      -1.3541245961943096,
+      -0.8996899278410204
+     ],
+     "significant": true
+    },
+    "S3": {
+     "slope": -1.2338320912388712,
+     "ci": [
+      -1.3741779202161244,
+      -1.0889489016859963
+     ],
+     "significant": true
+    }
+   },
+   "c__DA052": {
+    "mean_share": 0.017959786096256685,
+    "S0": {
+     "slope": -0.6374060599358378,
+     "ci": [
+      -1.1693750789574555,
+      -0.44401083059134394
+     ],
+     "significant": true
+    },
+    "S3": {
+     "slope": -1.0124643167672633,
+     "ci": [
+      -1.2544724934376463,
+      -0.7579901730008155
+     ],
+     "significant": true
+    }
+   },
+   "c__Solibacteres": {
+    "mean_share": 0.02131486631016043,
+    "S0": {
+     "slope": -0.2762166486928428,
+     "ci": [
+      -0.47115310198131793,
+      -0.0966004448046947
+     ],
+     "significant": true
+    },
+    "S3": {
+     "slope": -0.22570394493177331,
+     "ci": [
+      -0.37597584854288524,
+      -0.1519486649369172
+     ],
+     "significant": true
+    }
+   },
+   "c__[Chloracidobacteria]": {
+    "mean_share": 0.062444705882352944,
+    "S0": {
+     "slope": 0.9020919668029388,
+     "ci": [
+      0.5979127123707512,
+      1.0660057204899256
+     ],
+     "significant": true
+    },
+    "S3": {
+     "slope": 0.7673110172895866,
+     "ci": [
+      0.4810071305883843,
+      0.949918329972256
+     ],
+     "significant": true
+    }
+   }
+  },
+  "mixed_model": {
+   "slope": -0.2931645128458123,
+   "ci": [
+    -0.3750489919579411,
+    -0.21128003373368348
+   ],
+   "significant": true
+  }
+ },
+ "transfer": {
+  "F5": {
+   "n_tested": 14,
+   "n_fail": 0,
+   "transfer_fails": false,
+   "worst": [
+    {
+     "country": "Antarctica",
+     "n": 156,
+     "ratio": 1.1396234396497253
+    },
+    {
+     "country": "Tanzania",
+     "n": 123,
+     "ratio": 1.1024210634663143
+    },
+    {
+     "country": "Japan",
+     "n": 309,
+     "ratio": 1.0952796906094129
+    },
+    {
+     "country": "Malaysia",
+     "n": 55,
+     "ratio": 1.068397985182241
+    },
+    {
+     "country": "Australia",
+     "n": 254,
+     "ratio": 1.057578779508779
+    }
+   ]
+  },
+  "F10": {
+   "n_tested": 14,
+   "n_fail": 0,
+   "transfer_fails": false,
+   "worst": [
+    {
+     "country": "Japan",
+     "n": 309,
+     "ratio": 1.1078136846435833
+    },
+    {
+     "country": "Mongolia",
+     "n": 228,
+     "ratio": 1.0558740989768152
+    },
+    {
+     "country": "Kenya",
+     "n": 125,
+     "ratio": 1.0478208654426362
+    },
+    {
+     "country": "Scotland",
+     "n": 832,
+     "ratio": 1.0460661675111327
+    },
+    {
+     "country": "Antarctica",
+     "n": 156,
+     "ratio": 1.036368406001526
+    }
+   ]
+  },
+  "F9": {
+   "n_tested": 5,
+   "n_fail": 0,
+   "transfer_fails": false,
+   "worst": [
+    {
+     "country": "Antarctica",
+     "n": 119,
+     "ratio": 1.1080746060041127
+    },
+    {
+     "country": "United States of America",
+     "n": 428,
+     "ratio": 1.0981200357548573
+    },
+    {
+     "country": "Australia",
+     "n": 205,
+     "ratio": 1.086938154254068
+    },
+    {
+     "country": "Panama",
+     "n": 41,
+     "ratio": 1.034233224018705
+    },
+    {
+     "country": "Russia",
+     "n": 62,
+     "ratio": 1.0157655712774167
+    }
+   ]
+  }
+ }
+}

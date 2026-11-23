@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+data/emp_release1/*.biom
+data/microbeatlas/*.biom
+data/microbeatlas/*.biom.gz
+data/microbeatlas/samples.env.info.tsv
+data/microbeatlas/samples.info.latlon.parsed.tsv
+data/microbeatlas/taxonomic_mapping.tsv
+data/microbeatlas/runs.info.tsv.gz
+data/microbeatlas/derived/*.npz
+data/microbeatlas/derived/*.pkl
+data/microbeatlas/derived/sample_ids.npy
+results/ma_richness.pkl

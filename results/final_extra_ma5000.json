@@ -1,0 +1,500 @@
+{
+ "f9_deep": {
+  "n": 16521,
+  "S0": {
+   "slope": -0.0759618999995911,
+   "ci": [
+    -0.2503590739737382,
+    0.0924183423607053
+   ],
+   "significant": false
+  },
+  "S3": {
+   "slope": -0.24485651353076934,
+   "ci": [
+    -0.35105745281876877,
+    -0.14320135705728332
+   ],
+   "significant": true
+  },
+  "drop_one_country_S0": [
+   {
+    "dropped": "United States of America",
+    "n_dropped": 6829,
+    "slope": -0.07102752964977338,
+    "ci": [
+     -0.24987356707444097,
+     0.07534426222752555
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Switzerland",
+    "n_dropped": 1144,
+    "slope": -0.0669127444255454,
+    "ci": [
+     -0.2270303893766766,
+     0.08604135695618723
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Canada",
+    "n_dropped": 1073,
+    "slope": -0.07203388473799228,
+    "ci": [
+     -0.23838504831570032,
+     0.0985420015309126
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "ocean",
+    "n_dropped": 971,
+    "slope": -0.1357314142692155,
+    "ci": [
+     -0.3046072805286291,
+     0.04710938555299004
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "United Kingdom",
+    "n_dropped": 625,
+    "slope": -0.05792501285139897,
+    "ci": [
+     -0.22083808969799032,
+     0.06222943175657083
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "China",
+    "n_dropped": 555,
+    "slope": -0.07514345040114108,
+    "ci": [
+     -0.25080443550927634,
+     0.08217065420342068
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "France",
+    "n_dropped": 387,
+    "slope": -0.07413409150205275,
+    "ci": [
+     -0.2633521682899589,
+     0.07003031484522709
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Antarctica",
+    "n_dropped": 378,
+    "slope": -0.07157371230027157,
+    "ci": [
+     -0.24236731029273198,
+     0.08170632167454522
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Mexico",
+    "n_dropped": 301,
+    "slope": -0.08089031488316714,
+    "ci": [
+     -0.24320777040543026,
+     0.10256143798790977
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Somalia",
+    "n_dropped": 298,
+    "slope": -0.08431239197001417,
+    "ci": [
+     -0.2270720986333059,
+     0.07134208405404815
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Netherlands",
+    "n_dropped": 290,
+    "slope": -0.08114623698348257,
+    "ci": [
+     -0.2635203714345733,
+     0.07453815348025318
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Australia",
+    "n_dropped": 222,
+    "slope": -0.07335641506973213,
+    "ci": [
+     -0.21968002766168995,
+     0.09799156908180974
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Austria",
+    "n_dropped": 220,
+    "slope": -0.06274746408264602,
+    "ci": [
+     -0.2415325037672938,
+     0.10316925572982669
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Israel",
+    "n_dropped": 194,
+    "slope": -0.06332352295736138,
+    "ci": [
+     -0.21325036121494212,
+     0.06695996888282761
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Germany",
+    "n_dropped": 175,
+    "slope": -0.08362580357229642,
+    "ci": [
+     -0.2265293912048131,
+     0.0694586263365277
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Chile",
+    "n_dropped": 158,
+    "slope": -0.07239226091300087,
+    "ci": [
+     -0.2430000986597974,
+     0.10783415447763858
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Sweden",
+    "n_dropped": 135,
+    "slope": -0.07193898951274247,
+    "ci": [
+     -0.24111384859763046,
+     0.08937225651038894
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Denmark",
+    "n_dropped": 124,
+    "slope": -0.07976627434578025,
+    "ci": [
+     -0.2450084565367076,
+     0.0713720533946469
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Brazil",
+    "n_dropped": 119,
+    "slope": -0.07322148588387073,
+    "ci": [
+     -0.252433067870218,
+     0.07781090300318477
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "United Republic of Tanzania",
+    "n_dropped": 92,
+    "slope": -0.07153570077539238,
+    "ci": [
+     -0.22022968129081005,
+     0.0816896453101686
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Norway",
+    "n_dropped": 88,
+    "slope": -0.07460773341160251,
+    "ci": [
+     -0.24466321226283352,
+     0.08052946095898686
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Belgium",
+    "n_dropped": 86,
+    "slope": -0.07752915878081021,
+    "ci": [
+     -0.24595940772153038,
+     0.07122853630699398
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Japan",
+    "n_dropped": 84,
+    "slope": -0.08597563420487239,
+    "ci": [
+     -0.2379801440159452,
+     0.09230360138643023
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Italy",
+    "n_dropped": 82,
+    "slope": -0.07186972486925272,
+    "ci": [
+     -0.23077207983369555,
+     0.09667587626556416
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Papua New Guinea",
+    "n_dropped": 82,
+    "slope": -0.08433913555683588,
+    "ci": [
+     -0.2353235524567791,
+     0.07753888556806528
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Czechia",
+    "n_dropped": 79,
+    "slope": -0.07662346681044774,
+    "ci": [
+     -0.23753725970823186,
+     0.06569765256059326
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Argentina",
+    "n_dropped": 66,
+    "slope": -0.07750534253295811,
+    "ci": [
+     -0.21986886010004938,
+     0.07603500914283644
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "South Africa",
+    "n_dropped": 66,
+    "slope": -0.0745538022443118,
+    "ci": [
+     -0.2195540152347989,
+     0.08361749787243612
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Kyrgyzstan",
+    "n_dropped": 62,
+    "slope": -0.07180211725942207,
+    "ci": [
+     -0.24746189539850535,
+     0.09549612054473315
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Panama",
+    "n_dropped": 60,
+    "slope": -0.0755772259811034,
+    "ci": [
+     -0.2482101074016235,
+     0.07466704712186623
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Finland",
+    "n_dropped": 58,
+    "slope": -0.07126960634297894,
+    "ci": [
+     -0.21579048655310631,
+     0.08658559687433601
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Russia",
+    "n_dropped": 53,
+    "slope": -0.07508392035026162,
+    "ci": [
+     -0.2249778621228327,
+     0.07276728286815148
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Oman",
+    "n_dropped": 42,
+    "slope": -0.07370380776143592,
+    "ci": [
+     -0.23556020395221997,
+     0.08195075944704243
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Vietnam",
+    "n_dropped": 36,
+    "slope": -0.07607591336710177,
+    "ci": [
+     -0.22250062658698544,
+     0.06067964953068345
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "New Zealand",
+    "n_dropped": 35,
+    "slope": -0.07644988200730143,
+    "ci": [
+     -0.2402804955581629,
+     0.05967197487005725
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Poland",
+    "n_dropped": 34,
+    "slope": -0.07603858498955969,
+    "ci": [
+     -0.2497206927436888,
+     0.10389649551563879
+    ],
+    "significant": false
+   },
+   {
+    "dropped": "Qatar",
+    "n_dropped": 30,
+    "slope": -0.07051778681155481,
+    "ci": [
+     -0.21494489244669682,
+     0.07169018532216676
+    ],
+    "significant": false
+   }
+  ],
+  "classes": {},
+  "mixed_model": {
+   "slope": -0.08508332919293876,
+   "ci": [
+    -0.0962854113315961,
+    -0.07388124705428142
+   ],
+   "significant": true
+  }
+ },
+ "transfer": {
+  "F5": {
+   "n_tested": 48,
+   "n_fail": 0,
+   "transfer_fails": false,
+   "worst": [
+    {
+     "country": "Antarctica",
+     "n": 1263,
+     "ratio": 1.0634423448111052
+    },
+    {
+     "country": "Ethiopia",
+     "n": 1543,
+     "ratio": 1.0608019852696573
+    },
+    {
+     "country": "Sweden",
+     "n": 1806,
+     "ratio": 1.0193286395870589
+    },
+    {
+     "country": "Malaysia",
+     "n": 551,
+     "ratio": 1.0187190426846198
+    },
+    {
+     "country": "China",
+     "n": 26871,
+     "ratio": 1.0178394488461568
+    }
+   ]
+  },
+  "F10": {
+   "n_tested": 6,
+   "n_fail": 0,
+   "transfer_fails": false,
+   "worst": [
+    {
+     "country": "United States of America",
+     "n": 8677,
+     "ratio": 1.0461217560202394
+    },
+    {
+     "country": "Japan",
+     "n": 342,
+     "ratio": 1.0242933669093297
+    },
+    {
+     "country": "ocean",
+     "n": 274,
+     "ratio": 1.0092395258279985
+    },
+    {
+     "country": "Mongolia",
+     "n": 225,
+     "ratio": 1.005516417224957
+    },
+    {
+     "country": "China",
+     "n": 224,
+     "ratio": 1.0005445194282145
+    }
+   ]
+  },
+  "F9": {
+   "n_tested": 13,
+   "n_fail": 0,
+   "transfer_fails": false,
+   "worst": [
+    {
+     "country": "Switzerland",
+     "n": 1144,
+     "ratio": 1.0493433789735576
+    },
+    {
+     "country": "United States of America",
+     "n": 6829,
+     "ratio": 1.0473213008523872
+    },
+    {
+     "country": "ocean",
+     "n": 971,
+     "ratio": 1.047058867871221
+    },
+    {
+     "country": "Somalia",
+     "n": 298,
+     "ratio": 1.0354564974306768
+    },
+    {
+     "country": "United Kingdom",
+     "n": 625,
+     "ratio": 1.0351239899977067
+    }
+   ]
+  }
+ }
+}
